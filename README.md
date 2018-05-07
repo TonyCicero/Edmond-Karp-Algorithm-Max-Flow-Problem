@@ -8,9 +8,9 @@ addEdge(vertex_a, vertex_b, capacity) //adds directed edge from vertex_a to vert
 findMaxFlow(source,sink)  //returns max flow as int; prints edges & max flow Path with residual capacity & starting capacity
 resize(newsize) // resizes the graph 
 ```
-Nick Caverly
-Tony Cicero
-Kevin Fretz
+-Nick Caverly
+-Tony Cicero
+-Kevin Fretz
 
 # Using Edmond-Karp Algorithm to Solve the Max Flow Problem
 **Abstract:** This paper is an introduction into the max flow problem. We implement the Edmonds-Karp algorithm, which executes in O(VE2) time. Max Flow is the term used to describe how much of a material can be passed into a flow network, which can be used to model many real word situations. One of the most common uses for flow networks are to model electrical circuits. 
@@ -80,21 +80,16 @@ Edmonds-Karp (G, s, t)
 
 **Appendix:** 
 
-Edges
-Vertices
-Run-time
-10
-6
-~0.0005s
-24
-12
-~0.0021s
-28
-12
-~0.0040s
-32
-12
-~0.0064s
+| Edges | Vertices | Run-time |
+|-------|----------|----------|
+| 10    | 6        | ~0.0005s |
+|-------|----------|----------|
+| 24    | 12       | ~0.0021s |
+|-------|----------|----------|
+| 28    | 12       | ~0.0040s |
+|-------|----------|----------|
+| 32    | 12       | ~0.0064s |
+|-------|----------|----------|
 
 GitHub for our source code: https://github.com/TonyCicero/Edmond-Karp-Algorithm-Max-Flow-Problem
 #ifndef MaxFlow_H
