@@ -83,13 +83,10 @@ Edmonds-Karp (G, s, t)
 | Edges | Vertices | Run-time |
 |-------|----------|----------|
 | 10    | 6        | ~0.0005s |
--------------------------------
 | 24    | 12       | ~0.0021s |
--------------------------------
 | 28    | 12       | ~0.0040s |
--------------------------------
 | 32    | 12       | ~0.0064s |
--------------------------------
+
 
 GitHub for our source code: https://github.com/TonyCicero/Edmond-Karp-Algorithm-Max-Flow-Problem
 #ifndef MaxFlow_H
